@@ -45,6 +45,7 @@ header div{
   background: white;
   height: 100%;
   width: 33%;
+  transition: 1s;
 }
 
 p {
