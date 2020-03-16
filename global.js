@@ -9,7 +9,7 @@ function menuClick() {
   console.log(x);
   $("#menu").css("left", x.left - $("#menu").width());
 
-  if($("#menu").css('left') !== 100%){
+  if($("#menu").css('left') !== '100%'){
     $("#menu").css("left", '100%');
   }
 }
