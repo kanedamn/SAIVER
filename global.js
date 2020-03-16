@@ -3,8 +3,13 @@ $(function(){
   $('#menuButton').click(menuClick)
 });
 
-
 function menuClick() {
-  console.log("wewe");
-  $("#menu").css("left", "66%");
+  var x = $("#menu").position();
+
+  console.log(x);
+  $("#menu").css("left", x.left - $("#menu").width());
+
+  if($("#menu").css('left') !== 100%){
+    $("#menu").css("left", '100%');
+  }
 }
