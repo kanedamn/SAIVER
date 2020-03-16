@@ -1,0 +1,147 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+/*.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there
+}
+*/
+
+
+/*_______________________________________E COSE NOSTRE*/
+
+
+:root {
+    --mainColor: #0093DD;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*_____________________STARTING MENU BAR*/
+header {
+    z-index: 100;
+    background: white;
+    position: fixed;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    border-bottom: 2px solid var(--mainColor);
+    width: 100%;
+}
+
+    header div {
+        margin: 0px;
+        padding: 15px 10px 10px 10px;
+    }
+
+#logotipo {
+    margin-left: 10px;
+}
+
+#menuButton {
+    z-index: 201;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: var(--mainColor);
+    width: 25px;
+    height: 25px;
+}
+/*______________________ENDING MENU BAR*/
+
+#menu {
+    z-index: 200;
+    right: -34vw;
+    position: fixed;
+    background: white;
+    height: 100%;
+    width: 33vw;
+    transition: 1s;
+    border-left: 2px solid var(--mainColor);
+    top: 0;
+}
+
+p {
+    margin: 0px;
+    font-family: Montserrat;
+    color: var(--mainColor);
+}
+
+footer {
+    width: 100vw;
+    bottom: 0px;
+    padding: 15px 10px 10px 10px;
+    background: white;
+    border-top: 2px solid var(--mainColor);
+}
+
+#footerInfo {
+    font-size: 12px;
+}
+
