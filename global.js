@@ -1,4 +1,8 @@
-$("#menuButton").onclick = menuClick();
+
+$(function(){
+  $('#menuButton').click(menuClick)
+});
+
 
 function menuClick() {
   console.log("wewe");
