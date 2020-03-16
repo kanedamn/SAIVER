@@ -1,26 +1,6 @@
-body{
-  padding: 0px;
-  margin: 0px;
-}
-
-header{
-  padding: 0px 0px 0px 0px;
-  margin: 0px;
-  border-bottom: 3px solid var(--mainColor);
-}
-
-header div{
-  margin: 0px;
-  padding: 15px 10px 10px 10px;
-}
-
-#logotipo{
-  margin-left: 10px;
-}
-
 #canvas{
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 200vh;
   background: slategray;
 }
 

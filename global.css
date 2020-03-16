@@ -2,6 +2,51 @@
   --mainColor : #0093DD;
 }
 
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+/*_____________________STARTING MENU BAR*/
+header{
+  z-index: 100;
+  background: white;
+  position: fixed;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  border-bottom: 3px solid var(--mainColor);
+  width: 100%;
+}
+
+header div{
+  margin: 0px;
+  padding: 15px 10px 10px 10px;
+}
+
+#logotipo{
+  margin-left: 10px;
+}
+
+#menuButton{
+  z-index: 201;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: var(--mainColor);
+  width: 25px;
+  height: 25px;
+}
+/*______________________ENDING MENU BAR*/
+
+#menu{
+  z-index: 200;
+  left: 100%;
+  position: fixed;
+  background: white;
+  height: 100%;
+  width: 33%;
+}
+
 p {
   margin: 0px;
   font-family: Montserrat;
