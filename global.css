@@ -40,7 +40,7 @@ header div{
 
 #menu{
   z-index: 200;
-  left: 100%;
+  right: 0;
   position: fixed;
   background: white;
   height: 100%;
