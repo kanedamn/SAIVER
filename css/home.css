@@ -6,7 +6,7 @@ body{
 header{
   padding: 0px 0px 0px 0px;
   margin: 0px;
-  border-bottom: 3px solid #0093DD;
+  border-bottom: 3px solid var(--mainColor);
 }
 
 header div{
@@ -16,4 +16,14 @@ header div{
 
 #logotipo{
   margin-left: 10px;
+}
+
+#canvas{
+  width: 100vw;
+  height: 100vh;
+  background: slategray;
+}
+
+footer{
+  position: fixed;
 }

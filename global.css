@@ -1,0 +1,21 @@
+:root{
+  --mainColor : #0093DD;
+}
+
+p {
+  margin: 0px;
+  font-family: Montserrat;
+  color: var(--mainColor);
+}
+
+footer{
+  width: 100vw;
+  bottom: 0px;
+  padding: 15px 10px 10px 10px;
+  background: white;
+  border-top: 3px solid var(--mainColor);
+}
+
+#footerInfo{
+  font-size: 12px;
+}
