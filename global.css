@@ -40,12 +40,13 @@ header div{
 
 #menu{
   z-index: 200;
-  right: 0;
+  right: -34vw;
   position: fixed;
   background: white;
   height: 100%;
-  width: 33%;
+  width: 33vw;
   transition: 1s;
+  border-left: 3px solid var(--mainColor);
 }
 
 p {
